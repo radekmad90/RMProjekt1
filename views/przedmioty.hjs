@@ -10,7 +10,7 @@
     Nazwa przedmiotu: <b>{{ przedmiot }}</b> ważność: <b>{{ score }}</b> <a href="/przedmioty/delete/{{ przedmiot }}">Usuń</a></br>
 {{/przedmioty}}
 </br>
-<a href="/przedmioty/dodaj_przedmiot">Dodaj ocene</a>
+<a href="/przedmioty/dodaj_przedmiot">Dodaj przedmiot</a>
 
 </body>
 </html>
