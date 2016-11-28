@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>{{ title }}</title>
+    <link rel='stylesheet' href='/stylesheets/style.css'/>
+</head>
+<body>
+<h1>{{ title }}</h1>
+<form method="POST" action="/studenci/modyfikuj_studenta">
+    <input type="hidden" name="nrIndeksu" value="{{ nrIndeksu }}">
+    Imię:<input type="text" name="imie" value="{{ imie }}"/></br>
+    Nazwisko:<input type="text" name="nazwisko" value="{{ nazwisko }}"/></br>
+    <button type="submit" name="submit">Zmodyfikuj studenta</button>
+</form>
+
+
+</body>
+</html>

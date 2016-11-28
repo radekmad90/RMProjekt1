@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>{{ title }}</title>
+    <link rel='stylesheet' href='/stylesheets/style.css'/>
+</head>
+<body>
+<h1>{{ title }}</h1>
+<h2>Numer indeksu: {{ nrIndeksu}}</h2>
+<h2>Imie: {{ imie}}</h2>
+<h2>Nazwisko: {{ nazwisko}}</h2>
+
+<a href="/studenci">Wyswietl studentów</a>
+
+</body>
+</html>

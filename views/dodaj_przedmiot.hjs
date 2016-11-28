@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>{{ title }}</title>
+    <link rel='stylesheet' href='/stylesheets/style.css'/>
+</head>
+<body>
+<h1>{{ title }}</h1>
+<form method="POST" action="/przedmioty/dodaj_przedmiot">
+    Nazwa przedmiotu:<input type="text" placeholder="Nazwa przedmiotu" name="przedmiot"/></br>
+    Ważność:<input type="number" value="0.0" name="score" step="any"></br>
+    <button type="submit" name="submit">Dodaj przedmiot</button>
+</form>
+
+
+</body>
+</html>

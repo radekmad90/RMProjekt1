@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>{{ title }}</title>
+    <link rel='stylesheet' href='/stylesheets/style.css'/>
+</head>
+<body>
+<h1>{{ title }}</h1>
+<form method="POST" action="/studenci/dodaj_studenta">
+    Nr indeksu: <input type="number" value="0" name="nrIndeksu"/></br>
+    Imie:<input type="text" name="imie"/></br>
+    Nazwisko:<input type="text" name="nazwisko"/></br>
+    <button type="submit" name="submit">Dodaj studenta</button>
+</form>
+
+
+</body>
+</html>

@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>{{ title }}</title>
+    <link rel='stylesheet' href='/stylesheets/style.css'/>
+</head>
+<body>
+<h1>{{ title }}</h1>
+<h2>Liczba studentów: {{ count }}</h2>
+{{#studenci}}
+    Numer indeksu:<b>{{ nrIndeksu }}</b> <a href="/studenci/szczegoly_studenta/{{nrIndeksu}}">Szczegóły</a></a> <a
+            href="/studenci/delete/{{ nrIndeksu }}">Usuń</a> <a href="/studenci/modyfikuj_studenta/{{ nrIndeksu }}">Modyfikuj</a></br>
+{{/studenci}}
+</br>
+<a href="/studenci/dodaj_studenta">Dodaj studenta</a>
+
+</body>
+</html>

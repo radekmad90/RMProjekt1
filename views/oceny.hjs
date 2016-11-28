@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>{{ title }}</title>
+    <link rel='stylesheet' href='/stylesheets/style.css'/>
+</head>
+<br>
+<h1>{{ title }}</h1>
+{{#oceny}}
+    <b>{{ ocena }}</b><a href="/oceny/delete/{{ ocena }}">Usuń</a></br>
+{{/oceny}}
+</br>
+<a href="/oceny/dodaj_ocene">Dodaj ocene</a>
+
+</body>
+</html>

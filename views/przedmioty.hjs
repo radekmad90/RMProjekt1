@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>{{ title }}</title>
+    <link rel='stylesheet' href='/stylesheets/style.css'/>
+</head>
+<br>
+<h1>{{ title }}</h1>
+{{#przedmioty}}
+    Nazwa przedmiotu: <b>{{ przedmiot }}</b> ważność: <b>{{ score }}</b> <a href="/przedmioty/delete/{{ przedmiot }}">Usuń</a></br>
+{{/przedmioty}}
+</br>
+<a href="/przedmioty/dodaj_przedmiot">Dodaj ocene</a>
+
+</body>
+</html>

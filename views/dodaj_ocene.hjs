@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>{{ title }}</title>
+    <link rel='stylesheet' href='/stylesheets/style.css'/>
+</head>
+<body>
+<h1>{{ title }}</h1>
+<form method="POST" action="/oceny/dodaj_ocene">
+    <input type="number" value="0" name="ocena"/>
+
+    <button type="submit" name="submit">Dodaj ocene</button>
+</form>
+
+
+</body>
+</html>

@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>{{ title }}</title>
+    <link rel='stylesheet' href='/stylesheets/style.css'/>
+</head>
+<body>
+<h1>{{ title }}</h1>
+<a href="/oceny">Możliwe oceny (typ danych SET)</a>
+</br>
+<a href="/przedmioty">Przedmioty (typ danych SORTEDSET)</a>
+</br>
+<a href="/studenci">Studenci (klucze oraz typ danych HASH)</a>
+</body>
+</html>
